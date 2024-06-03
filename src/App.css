@@ -1,0 +1,125 @@
+.main-nav {
+  border-bottom: 1px solid rgb(221, 213, 213);
+  background: #dbe2e5;
+  height: 73px;
+  /* margin-bottom: 80px; */
+}
+
+.navbar-brand {
+  font-family: "Source Sans Pro", "Arial";
+  font-size: 10px;
+}
+.about-text {
+  display: flex;
+  justify-content: center;
+  /* margin: 12% 0 5% 0; */
+  font-size: 30px;
+  color: #778f97;
+  padding-bottom: 5px;
+}
+.contact-card {
+  width: 40%;
+  height: 20%;
+  margin-left: 30%;
+  border: 0 !important;
+  background-color: "#dbe2e5" !important;
+}
+.contact-container {
+  height: 500px;
+  align-items: center;
+}
+.animate {
+  animation: left_to_right 3s ease;
+}
+
+@keyframes left_to_right {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+.image-1 {
+  display: flex;
+  justify-content: center;
+}
+.name {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: #778f97;
+}
+.two-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px !important;
+}
+.custom-btn {
+  background-color: white !important;
+  border: 1px solid #f97b1e !important;
+  color: #f97b1e !important;
+  border-radius: 20px !important;
+}
+.custom-btn:hover {
+  background-color: #f97b1e !important;
+  color: white !important;
+}
+.round-border {
+  border-radius: 20px !important;
+}
+.skills {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #778f97;
+  padding-top: 100px;
+}
+.skill-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0 80px 0;
+}
+.skill-icon {
+  height: 80px;
+  width: 80px;
+  opacity: 1;
+  transform: none;
+  cursor: pointer;
+  /* transition: transform 0.2s; */
+}
+.icon-transition {
+  transition: transform 0.2s;
+}
+.icon-transition:hover {
+  transform: scale(1.5);
+}
+label {
+  font-size: 15px;
+  padding-top: 15px;
+}
+.arrow-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 50px; */
+}
+.arrow {
+  position: absolute;
+  font-size: 50px;
+  cursor: pointer;
+  animation: bouncing 1s infinite ease-in-out;
+  color: gray;
+}
+@keyframes bouncing {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
